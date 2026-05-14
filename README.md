@@ -5,12 +5,12 @@ This project introduces **MongoDB integration, Mongoose models, CRUD operations,
 ---
 
 ## 📚 Lessons Covered
-- **Task 21**: MongoDB + Mongoose
+- **MongoDB + Mongoose**:
   - MongoDB Atlas / Local setup
   - Post & Comment models
   - CRUD operations
   - Relationships (Posts ↔ Comments)
-- **Task 22**: Authentication + User System
+- **Authentication + User System**:
   - User model with password hashing
   - Registration & login with JWT
   - Auth middleware (protect/restrict routes)
@@ -40,6 +40,7 @@ This project introduces **MongoDB integration, Mongoose models, CRUD operations,
 
  ```bash
  npm install
+```
 
 3. **Configure environment**
     Create a .env file:
@@ -48,6 +49,7 @@ This project introduces **MongoDB integration, Mongoose models, CRUD operations,
     JWT_SECRET=supersecretkey
     JWT_EXPIRES_IN=7d
     PORT=3000
+    ```
 4. **Run Server**
   ```bash
   npm start
